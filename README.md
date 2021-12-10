@@ -1,1 +1,1 @@
-<h1> Anny KarolinaSanchez Ridriguez</h1>
+<h1> Anny Karolina Sánchez Ridríguez</h1>
