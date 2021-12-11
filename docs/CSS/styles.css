@@ -11572,7 +11572,7 @@ h1, h3, input, textarea {
 }
 
 .container {
-  margin-top: -20px;
+  margin-top: -25px;
 }
 
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
