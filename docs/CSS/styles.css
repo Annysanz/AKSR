@@ -11575,7 +11575,7 @@ h1, h3, input, textarea {
   margin-top: 20px;
 }
 .container2 {
-  margin-top: -120px;
+  margin-top: -220px;
 }
 
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
