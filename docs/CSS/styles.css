@@ -11460,7 +11460,7 @@ footer.footer .social-link:hover {
   display: table;
   width: 100%;
   height: auto;
-  /* padding-top: 11rem; */
+  padding-top: 11rem;
   /* padding-bottom: -8rem; */
   background-image: linear-gradient(to right, #020869 10%, #04826b 50%, #a2066e 100%) !important;
 }
