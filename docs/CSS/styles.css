@@ -653,8 +653,8 @@ progress {
 /* @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
-  } */
-}
+  } 
+}*/
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1320px;
@@ -6178,6 +6178,7 @@ textarea.form-control-lg {
   padding-bottom: 1.25rem;
   color: #fff;
   text-align: center;
+  display: block;
 }
 
 .carousel-dark .carousel-control-prev-icon,
@@ -6744,9 +6745,9 @@ textarea.form-control-lg {
   display: inline-flex !important;
 }
 
-.d-none {
+/* .d-none {
   display: none !important;
-}
+} */
 
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
@@ -11963,4 +11964,8 @@ margin-top: 50px;
 
 .text-studies{
   font-size: 1em;
+}
+
+.social-link-carousel{
+  font-size: 5em;
 }
