@@ -11867,30 +11867,15 @@ margin-top: 50px;
 
 .cardd {
   float: left;
-  padding: 0 1.7rem;
-  width: 50%;
-}
-
-.cardd .menu-content {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.cardd .menu-content::before, .cardd .menu-content::after {
-  content: '';
-  display: table;
-}
-
-.cardd .menu-content::after {
-  clear: both;
 }
 
 .cardd .wrapper {
-  justify-content: center;
+  display: flex !important;
   background-color: #fff;
-  min-height: 340px;
-  min-width: 750px;
+  min-height: 440px;
+  min-width: 340px;
+  margin-top: 15px;
+  width: 340px;
   position: relative;
   overflow: hidden;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
@@ -11914,56 +11899,52 @@ margin-top: 50px;
   z-index: 1;
 }
 
-.cardd .title {
-  margin-top: 10px;
-}
-
 .cardd .text {
   height: 70px;
   margin: 0;
 }
 
-.git-one .wrapper {
+.studies .wrapper {
+  background: rgba(52, 58, 64, 0.5) !important;
+}
+
+/* .studies-one .wrapper {
   background: url(https://tvseriescritic.files.wordpress.com/2016/10/stranger-things-bicycle-lights-children.jpg) center/cover no-repeat;
 }
 
-.git-two .wrapper {
+/* .studies-two .wrapper {
   background: url(https://tvseriescritic.files.wordpress.com/2016/10/stranger-things-bicycle-lights-children.jpg) center/cover no-repeat;
 }
 
-.git-three .wrapper {
+.studies-three .wrapper {
   background: url(https://tvseriescritic.files.wordpress.com/2016/10/stranger-things-bicycle-lights-children.jpg) center/cover no-repeat;
-}
+} */
 
-.git-one .header {
+.studies .header {
   color: #fff;
   padding: 1em;
 }
 
-.git-one .header::before, .git-one .header::after {
+.studies .header::before, .studies .header::after {
   content: '';
   display: table;
 }
 
-.git-one .header::after {
+.studies .header::after {
   clear: both;
 }
 
-.git-one .header .date {
+.studies .header .date {
   float: left;
   font-size: 12px;
 }
 
-.git-one .menu-content {
-  float: right;
-}
-
-.git-one .data {
+.studies .data {
   color: #fff;
   transform: translateY(calc(70px + 4em));
 }
 
-.anny-phone{
+.anny-photo{
   width: 170px;
   height: 170px;
   border-radius: 50%;
