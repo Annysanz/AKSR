@@ -11869,6 +11869,12 @@ margin-top: 50px;
   float: left;
 }
 
+.cardd .menu-content {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+} 
+
 .cardd .wrapper {
   display: flex !important;
   background-color: #fff;
@@ -11906,10 +11912,6 @@ margin-top: 50px;
 
 .studies .wrapper {
   background: rgba(52, 58, 64, 0.5) !important;
-}
-
-/* .studies-one .wrapper {
-  background: url(https://tvseriescritic.files.wordpress.com/2016/10/stranger-things-bicycle-lights-children.jpg) center/cover no-repeat;
 }
 
 /* .studies-two .wrapper {
