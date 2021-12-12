@@ -650,10 +650,10 @@ progress {
     max-width: 960px;
   }
 }
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
-  }
+  } */
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
@@ -11455,7 +11455,7 @@ footer.footer .social-link:hover {
 }
 
 .masthead {
-  min-height: 54rem;
+  min-height: 42rem;
   position: relative;
   display: table;
   width: 100%;
@@ -11680,11 +11680,11 @@ input[type=checkbox]:checked + label {
   text-transform: uppercase;
   white-space: nowrap;
   background-size: 200% auto;
-  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.53);
+  box-shadow: 0 0 0 0.25rem rgba(25, 24, 24, 0.53);
 }
 
 #sidebarCollapse {
-  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.53);
+  box-shadow: 0 0 0 0.25rem rgba(25, 24, 24, 0.53);
   text-transform: uppercase;
   white-space: nowrap;
   border-radius: 40px;
@@ -11868,7 +11868,7 @@ margin-top: 50px;
 .cardd {
   float: left;
   width: 100%;
-  height: 450px;
+  height: 410px;
   display: block !important;
   max-width: 390px;
   padding: 15px;
@@ -11954,8 +11954,7 @@ margin-top: 50px;
   width: 170px;
   height: 170px;
   border-radius: 50%;
-  box-shadow: 0 0 0 0.35rem rgba(0, 0, 0, 0.53);
-  align-self: center;
+  box-shadow: 0 0 0 0.35rem rgba(253, 250, 250, 0.53);  align-self: center;
   }
 
 .icon-studies{
