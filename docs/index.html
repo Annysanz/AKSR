@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="utf-8" />
@@ -19,17 +19,17 @@
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
-                <a href="#page-top">•A •K •S •R</a>
-                <div class="menu-language" href="#"><i class="fas fa-language"></i>
-                </div>
+                <!-- <a href="#page-top">•A •K •S •R</a> -->
+                <div class="es-language translate" id="es" href="#">es</div>
+                <div class="en-language translate" id="en" href="#">en</div>
             </li>
-            <li class="sidebar-nav-item"><a href="#page-top"><i class="fas fa-house-user"></i>&nbsp; Home</a></li>
-            <li class="sidebar-nav-item"><a href="#about"><i class="far fa-address-card"></i>&nbsp; About</a></li>
-            <li class="sidebar-nav-item"><a href="#studies"><i class="fas fa-university"></i>&nbsp; Studies &nbsp;<i class="fas fa-briefcase"></i>&nbsp;Work</a></li>
-            <li class="sidebar-nav-item"><a href="#portfolio"><i class="fab fa-github"></i>&nbsp; Portfolio</a></li>
-            <li class="sidebar-nav-item"><a href="#skills"><i class="fas fa-users-cog"></i>&nbsp; Skills</a></li>
+            <li class="sidebar-nav-item"><i class="icon-menu fas fa-house-user"></i>&nbsp;<a class="lang" key="home" href="#page-top"></a></li>
+            <li class="sidebar-nav-item"><i class="icon-menu far fa-address-card"></i>&nbsp;<a class="lang" key="about" href="#about"></a></li>
+            <li class="sidebar-nav-item"><i class="icon-menu fas fa-university"></i>&nbsp;<a class="lang" key="studies-work" href="#studies"></a><i class="icon-menu fas fa-briefcase"></i></li>
+            <li class="sidebar-nav-item"><i class="icon-menu fab fa-github"></i>&nbsp;<a class="lang" key="portfolio" href="#portfolio"></a></li>
+            <li class="sidebar-nav-item"><i class="icon-menu fas fa-users-cog"></i>&nbsp;<a class="lang" key="skills" href="#skills"></a></li>
             <hr class="border" />
-            <li class="sidebar-nav-item"><a href="#contact"><i class="far fa-paper-plane"></i>&nbsp; Contact</a></li>
+            <li class="sidebar-nav-item"><i class="icon-menu far fa-paper-plane"></i>&nbsp;<a class="lang" href="#contact" key="contact"></a></li>
         </ul>
     </nav>
     <header class="masthead d-flex align-items-center">
@@ -37,9 +37,9 @@
             <img class="anny-photo" src="assets/img/anny.jpeg" alt="">
             <h1 class="mb-1">•A •K •S •R</h1>
             <div class="col">
-                <a id="sidebarCollapse" type="button" class="btn btn-md rounded-pill px-4 mb-4" href="#about">Find Out More</a>
-                <a id="sidebarCollapse" type="button" class="btn btn-md rounded-pill px-4 mb-4" target="_blank"
-                    href="assets/cv/anny-cv.pdf"><i class="far fa-arrow-alt-circle-down"></i></i> Dowload CV</a>
+                <a id="sidebarCollapse" key="ir-about" type="button" class="btn btn-md rounded-pill px-4 mb-4 lang" href="#about"></a>
+                <a id="sidebarCollapse" key="dowload" type="button" class="btn btn-md rounded-pill px-4 mb-4 lang" target="_blank"
+                    href="assets/cv/anny-cv.pdf"><i class="far fa-arrow-alt-circle-down"></i></a>
             </div>
             <!-- <div class="waves">
                 <div class="wave circulo a"></div>
@@ -53,16 +53,10 @@
             <div class="container px-4 px-lg-5 text-center">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-10">
-                        <h2>A little about me!</h2>
-                        <h2>Anny Karolina Sánchez Rodríguez</h2>
-                        <p>
-                            I am an energetic and tenacious person in all the projects I propose. 
-                            Working withprofessionalism and responsibility together with other people or independently.
-                            working now, as a FullStack Web developer. I always mention that the best way to ensure that 
-                            your goals are realized is to work with fortitude and conviction.
-                        </p>
-                        <a id="c-button" type="button" class="btn btn-md rounded-pill px-4 mb-4" href="#studies">My
-                            Education</a>
+                        <h2 class="lang" key="title-about"></h2>
+                        <h2 class="lang" key="name-about"></h2>
+                        <p class="lang" key="text-about"></p>
+                        <a id="c-button" type="button" key="button-studies" class="btn btn-md rounded-pill px-4 mb-4 lang" href="#studies"></a>
                     </div>
                 </div>
             </div>
@@ -73,15 +67,14 @@
             <div class="container px-4 px-lg-5 text-center">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-10">
-                            <h2>Studies and Work Experiences</h2>
+                            <h2 class="lang" key="title-studies"></h2>
                         <div class="col-lg-4 studies cardd">
                             <div class="wrapper">
                                 <div class="data">
                                     <i class="icon-studies fas fa-university"></i>
                                     <div class="content">
-                                        <h2 class="text-studies">University Education </h2>
-                                        <p class="text-studies">University Institute of Industrial Administration Technology.<br> 
-                                        Recognition - Technical Engineer of Management Informatics.</p>
+                                        <h2 class="text-studies lang" key="University-studies"></h2>
+                                        <p class="text-studies lang" key="University"></p>
                                     </div>
                                 </div>
                             </div>
@@ -91,9 +84,8 @@
                                 <div class="data">
                                     <i class="icon-studies fas fa-language"></i>
                                     <div class="content">
-                                        <h2 class="text-studies">Languages</h2>
-                                        <p class="text-studies"> Official School of Languages.
-                                        English level A2.1. Currently.<br> Spanish Native  </p>
+                                        <h2 class="text-studies lang" key="title-language"></h2>
+                                        <p class="text-studies lang" key="text-language"></p>
                                     </div>
                                 </div>
                             </div>
@@ -103,9 +95,8 @@
                                 <div class="data">
                                     <i class="icon-studies fas fa-certificate"></i>
                                     <div class="content">
-                                        <h2 class="text-studies">Course</h2>
-                                        <p class="text-studies"> Google it Support - React Redux - 
-                                        Security of the Information - Web Development for e-commerce</p>
+                                        <h2 class="text-studies lang" key="title-course"></h2>
+                                        <p class="text-studies lang" key="text-course"></p>
                                     </div>
                                 </div>
                             </div>
@@ -115,9 +106,8 @@
                                 <div class="data">
                                     <i class="icon-studies fas fa-briefcase"></i>
                                     <div class="content">
-                                        <h2 class="text-studies">Practices</h2>
-                                        <p class="text-studies"> Theliliapp.com. Madrid - Spanish<br> 
-                                        Ministerio del Poder Popular Para Relaciones de Interio y Justicias. Caracas - Venezuela</p>
+                                        <h2 class="text-studies lang" key="title-practices"></h2>
+                                        <p class="text-studies lang" key="text-practices"></p>
                                     </div>
                                 </div>
                             </div>
@@ -127,9 +117,8 @@
                                 <div class="data">
                                     <i class="icon-studies fas fa-briefcase"></i>
                                     <div class="content">
-                                        <h2 class="text-studies">Work Experience</h2>
-                                        <p class="text-studies"> Theliliapp.com.<br> 
-                                        Ministerio del Poder Popular Para Relaciones de Interio y Justicias.</p>
+                                        <h2 class="text-studies lang"></h2>
+                                        <p class="text-studies lang"></p>
                                     </div>
                                 </div>
                             </div>
@@ -139,14 +128,13 @@
                                 <div class="data">
                                     <i class="icon-studies fas fa-briefcase"></i>
                                     <div class="content">
-                                        <h2 class="text-studies">Work Experience</h2>
-                                        <p class="text-studies"> Thyme foundation - Factory F5. Madrid - Spanish <br>
-                                        Developer FullStack  </p>
+                                        <h2 class="text-studies lang" key="title-work-experience"></h2>
+                                        <p class="text-studies lang" key="text-work-experience"></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a id="c-button" type="button" class="btn btn-md rounded-pill px-4 mb-4" href="#portfolio">My Contributions</a>
+                        <a id="c-button" type="button" class="btn btn-md rounded-pill px-4 mb-4 lang" key="button-my-constributions" href="#portfolio"></a>
                     </div>
                 </div>
             </div>
@@ -173,7 +161,7 @@
                                 <div class="carousel-item active">
                                     <img src="assets/img/mar_y_cielo_azul1.jpg" class="image d-block" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h2 class="title">The Wall of I love you</h2>
+                                        <h2 class="title lang" key="title-git-one"></h2>
                                         <a class="social-link-carousel rounded-circle text-white" target="_blank" href="https://github.com/Annysanz/le_mur_des_je_taime-1">
                                         <i class="fab fa-github"></i></a>
                                     </div>
@@ -181,7 +169,7 @@
                                 <div class="carousel-item">
                                     <img src="assets/img/mar_y_cielo_azul1.jpg" class="image d-block" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h2 class="title">Lost objects</h2>
+                                        <h2 class="title lang" key="title-git-two"></h2>
                                         <a class="social-link-carousel rounded-circle text-white" target="_blank" href="https://github.com/Annysanz/objetos_perdidos">
                                         <i class="fab fa-github"></i></a>                                    
                                     </div>
@@ -189,7 +177,7 @@
                                 <div class="carousel-item">
                                     <img src="assets/img/mar_y_cielo_azul1.jpg" class="image d-block" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h2 class="title">WEBoNADA</h2>
+                                        <h2 class="title lang">WEBoNADA</h2>
                                         <a class="social-link-carousel rounded-circle text-white" target="_blank" href="https://github.com/Annysanz/WEBoNADA">
                                         <i class="fab fa-github"></i></a>                                    
                                     </div>
@@ -206,7 +194,7 @@
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
-                        <a id="c-button" type="button" class="btn btn-md rounded-pill px-4 mb-4" href="#skills">My Skills</a>
+                        <a id="c-button" type="button" class="btn btn-md rounded-pill px-4 mb-4 lang" key="button-my-skills" href="#skills"></a>
                     </div>
                 </div>
             </div>
@@ -217,7 +205,7 @@
             <div class="px-4 px-lg-5 text-center">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="content-section-heading text-center">
-                        <h2>Skills</h2>
+                        <h2 class="lang" key="title-skills"></h2>
                     </div>
                     <div class="slider">
                         <div class="slide-track">
@@ -306,7 +294,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- <a id="c-button" type="button" class="btn btn-md rounded-pill px-4 mb-4" href="#contact">Contact me</a> -->
+                <!-- <a id="c-button" type="button" class="btn btn-md rounded-pill px-4 mb-4 lang" key="button-contact-me" href="#contact">Contact me</a> -->
             </div>
         </div>
     </section>
@@ -380,11 +368,15 @@
             <p class="text-muted small mb-0">Copyright &copy; Anny Karolina Sánchez Rodríguez</p>
         </div>
     </footer>
-
+    
     <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
 
+    <script crossorigin="anonymous" src="https://cdn.amcapi.com/translation/cloudtranslation-1.0.0.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/lang.js"></script>
+
 </body>
 
 </html>
