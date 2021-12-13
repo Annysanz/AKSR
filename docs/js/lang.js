@@ -1,4 +1,4 @@
-$.getJSON('../language/lang.json', function(json){
+$.getJSON('./language/lang.json', function(json){
 
     if(!localStorage.getItem("lang")){
         localStorage.setItem("lang", "en");
