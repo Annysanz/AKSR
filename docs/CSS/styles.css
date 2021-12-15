@@ -11439,6 +11439,7 @@ footer.footer {
   padding-bottom: 1rem;
   background-image: linear-gradient(to right, #020869 10%, #04826b 50%, #a2066e 100%) !important;
 }
+
 footer.footer .social-link {
   display: block;
   text-decoration: none;
@@ -11446,10 +11447,10 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
 }
+
 footer.footer .social-link:hover {
   background-color: #0e485b;
   text-decoration: none;
@@ -11967,6 +11968,15 @@ margin-top: 50px;
 
 .social-link-carousel{
   font-size: 5em;
+  color: #000;
+  text-decoration: none;
+  height: 4rem;
+  width: 4rem;
+}
+
+.social-link-carousel:hover{
+  background-color: #0e485b;
+  text-decoration: none;
 }
 
 .es-language{
