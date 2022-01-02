@@ -30,7 +30,9 @@
         "title-git-one":"El Muro de te amo",
         "title-git-two":"Objetos Perdidos",
         "button-my-skills":"Mis Habilidades",
-        "title-skills":"Habilidades"
+        "title-skills":"Habilidades", 
+        "copyright":"Copyright © Anny Karolina Sánchez Rodríguez"
+
     },
     "en":{
         "home":"Home",
@@ -63,7 +65,8 @@
         "title-git-one":"The Wall of I love you",
         "title-git-two":"Lost objects",
         "button-my-skills":"My Skills",
-        "title-skills":"Skills"
+        "title-skills":"Skills", 
+        "copyright":"Copyright © Anny Karolina Sánchez Rodríguez"
 
     }
 }
