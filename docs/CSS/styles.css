@@ -11312,7 +11312,7 @@ html {
 
 .scroll-to-top {
   position: fixed;
-  right: 15px;
+  right: -15px;
   bottom: 15px;
   display: none;
   width: 50px;
@@ -11321,6 +11321,7 @@ html {
   color: #fff;
   background: rgba(52, 58, 64, 0.5);
   line-height: 45px;
+  margin: 30px;
 }
 .scroll-to-top:focus, .scroll-to-top:hover {
   color: #fff;
