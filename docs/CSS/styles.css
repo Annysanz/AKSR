@@ -590,7 +590,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "—";
 }
 
 .img-fluid {
@@ -650,11 +650,11 @@ progress {
     max-width: 960px;
   }
 }
-/* @media (min-width: 1200px) {
+@media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
   } 
-}*/
+}
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1320px;
@@ -11886,7 +11886,7 @@ margin-top: 50px;
 .cardd .wrapper {
   display: block !important;
   background-color: #fff;
-  min-height: 360px;
+  min-height: 350px;
   margin-top: 15px;
   position: relative;
   overflow: hidden;
@@ -11919,14 +11919,6 @@ margin-top: 50px;
 .studies .wrapper {
   background: #0e485b !important;
 }
-
-/* .studies-two .wrapper {
-  background: url(https://tvseriescritic.files.wordpress.com/2016/10/stranger-things-bicycle-lights-children.jpg) center/cover no-repeat;
-}
-
-.studies-three .wrapper {
-  background: url(https://tvseriescritic.files.wordpress.com/2016/10/stranger-things-bicycle-lights-children.jpg) center/cover no-repeat;
-} */
 
 .studies .header {
   color: #fff;
@@ -12023,4 +12015,9 @@ margin-top: 50px;
   margin-top: 10px;
   margin-left: 15px;
   font-size: 1.4rem;
+}
+
+.studies-style{
+  justify-content: center;
+
 }
