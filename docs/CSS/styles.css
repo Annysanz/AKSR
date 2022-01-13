@@ -11458,7 +11458,7 @@ footer.footer .social-link:hover {
 }
 
 .masthead {
-  min-height: 42rem;
+  min-height: 40rem;
   position: relative;
   display: table;
   width: 100%;
@@ -11578,7 +11578,7 @@ h1, h3, input, textarea {
   margin-top: 20px;
 }
 .container2 {
-  margin-top: -220px;
+  margin-top: -170px;
 }
 
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
@@ -12022,6 +12022,7 @@ margin-top: 50px;
 }
 
 .aksr {
+  z-index: 1;
   position: relative;
   top: 35%;
   height: 240px;
@@ -12064,9 +12065,12 @@ font-size: 3.8rem;
 }
 @media (max-width: 768px) {
   .aksr{
-    z-index: 99;
+    z-index: 1;
     font-family: 'Do Hyeon', sans-serif;
-    margin: 0;  
-  }
+    margin: -20px;
+    }
 }
 
+.svg-aksr{
+  padding-top: 40px;
+}
