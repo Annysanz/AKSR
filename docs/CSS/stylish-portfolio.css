@@ -480,27 +480,20 @@ footer.footer {
 }
 
 .aksr {
-  z-index: 99;
-  position: absolute;
-  top: 25%;
-  margin-top: -60px;
-  margin-left: 150px;
-  font-family: 'Do Hyeon', sans-serif;
-  width: 990px;
+  position: relative;
+  top: 35%;
   height: 240px;
-  font-size: .1em;
 }
 
 use {
   opacity: .9;
   mix-blend-mode: color-burn;
-  fill: #ec07a8;
+  fill: white;
 }
 
 text {
-  transform: translate(1%, 48%);
-  font-size: 9rem;
-  font-weight: 900;
+  transform: translate(3%, 35%);
+  font-size: 3.8rem;
 }
 
 #littlePath {
@@ -514,33 +507,6 @@ text {
   margin-right: auto;
   margin-left: auto;
   max-width: 960px;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
-#content {
-  width: 100%;
-  margin-left: 10rem;
-  transition: all 0.4s;
-}
-
-.header {
-  width: 100%;
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.inner-header {
-  height: 65vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 .flex {
@@ -559,7 +525,6 @@ text {
   }
 }
 
-/*Shrinking for mobile*/
 @media (max-width: 768px) {
   .aksr {
     z-index: 99;

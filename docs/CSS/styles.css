@@ -12022,11 +12022,8 @@ margin-top: 50px;
 }
 
 .aksr {
-  /* z-index: 99; */
   position: relative;
   top: 35%;
-  /* margin-top: -60px; */
-  font-family: 'Do Hyeon', sans-serif;
   height: 240px;
 }
 use {
@@ -12035,8 +12032,8 @@ use {
   fill: white;
 }
 text {
-transform: translate(3%, 38%);
-font-size: 3.2rem;
+transform: translate(3%, 35%);
+font-size: 3.8rem;
 }
 #littlePath{
   fill: rgb(156, 165, 247);
@@ -12065,12 +12062,11 @@ font-size: 3.2rem;
     transform: translate3d(85px,0,0);
   }
 }
-/*Shrinking for mobile*/
 @media (max-width: 768px) {
   .aksr{
     z-index: 99;
-    
     font-family: 'Do Hyeon', sans-serif;
     margin: 0;  
   }
 }
+
