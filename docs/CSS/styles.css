@@ -11458,7 +11458,7 @@ footer.footer .social-link:hover {
 }
 
 .masthead {
-  min-height: 40rem;
+  min-height: 42rem;
   position: relative;
   display: table;
   width: 100%;
@@ -11721,13 +11721,9 @@ margin-top: 50px;
   box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.73);
 }
 
-/* .container2 {
-  height: 450px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+.container2 {
+  margin-top: -170px;
+}
 
 .waves {
   position: absolute;
