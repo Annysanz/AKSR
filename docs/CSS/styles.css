@@ -147,7 +147,7 @@ p {
   margin-bottom: 1rem;
   font-family: 'Do Hyeon', sans-serif;
   font-weight: 100;
-  padding-top: 70px;
+  padding-top: 75px;
 }
 
 abbr[title],
@@ -11947,6 +11947,7 @@ margin-top: 50px;
 
 .icon-studies{
     font-size: 6em;
+    padding: 10px;
   }
 
 .text-studies{
