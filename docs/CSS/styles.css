@@ -147,7 +147,7 @@ p {
   margin-bottom: 1rem;
   font-family: 'Do Hyeon', sans-serif;
   font-weight: 100;
-  padding-top: 115px;
+  padding-top: 95px;
   font-size: 1.4em;
   text-align: center;
 }
@@ -11468,7 +11468,7 @@ footer.footer .social-link:hover {
   background-image: linear-gradient(to right, #020869 10%, #04826b 50%, #a2066e 100%) !important;
 }
 .masthead h1, .masthead .h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin: 0;
   padding: 0;
 }
@@ -11882,7 +11882,7 @@ margin-top: 50px;
 .cardd .wrapper {
   display: block !important;
   background-color: #fff;
-  min-height: 360px;
+  min-height: 365px;
   margin-top: 15px;
   position: relative;
   overflow: hidden;
@@ -12073,6 +12073,6 @@ font-size: 3.8rem;
 }
 
 .icon-video{
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #fff;
 }
