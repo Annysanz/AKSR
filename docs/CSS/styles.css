@@ -12073,6 +12073,8 @@ font-size: 3.8rem;
 }
 
 .icon-video{
-  font-size: 1.2em;
   color: #fff;
+}
+.icon-video:hover{
+  background-image: linear-gradient(to right, #020869 40%, #04826b 50%, #a2066e 100%) !important;
 }
