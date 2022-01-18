@@ -12072,9 +12072,26 @@ font-size: 3.8rem;
   padding-top: 40px;
 }
 
-.icon-video{
-  color: #fff;
-}
-.icon-video:hover{
+#icon-video:hover {
+  right: -70px;
+  top: 10px;
   background-image: linear-gradient(to right, #020869 40%, #04826b 50%, #a2066e 100%) !important;
+  transition: 0.5s;
+  color: #fafafd;
+  white-space: nowrap;
+  background-size: 200% auto;
+  box-shadow: 0 0 0 0.25rem rgba(25, 24, 24, 0.53);
+}
+
+#icon-video {
+  box-shadow: 0 0 0 0.25rem rgba(25, 24, 24, 0.53);
+  white-space: nowrap;
+  border-radius: 40px;
+  white-space: nowrap;
+  color: #fafafd;
+  background-position: right center;
+  margin-right: 25px;
+  margin: 30px;
+  text-decoration: none;
+  padding: 4px;
 }
