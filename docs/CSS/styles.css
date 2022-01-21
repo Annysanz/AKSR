@@ -11458,12 +11458,12 @@ footer.footer .social-link:hover {
 }
 
 .masthead {
-  min-height: 42rem;
+  min-height: 52rem;
   position: relative;
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 11rem;
+  padding-top: 1rem;
   /* padding-bottom: -8rem; */
   background-image: linear-gradient(to right, #020869 10%, #04826b 50%, #a2066e 100%) !important;
 }
@@ -11691,7 +11691,6 @@ input[type=checkbox]:checked + label {
   text-transform: uppercase;
   white-space: nowrap;
   border-radius: 40px;
-  white-space: nowrap;
   color: #fafafd;
   background-position: right center;
   margin-right: 25px;
@@ -11704,7 +11703,6 @@ box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.73);
 text-transform: uppercase;
 white-space: nowrap;
 border-radius: 40px;
-white-space: nowrap;
 background-position: right center;
 margin-top: 50px;
 }
