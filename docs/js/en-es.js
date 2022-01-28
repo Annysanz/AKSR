@@ -1,4 +1,4 @@
-var hide_button = document.getElementById('ee');
+var hide_button = document.getElementById('es');
 var show_button = document.getElementById('en');
 
 hide_button.addEventListener('click', function() {
