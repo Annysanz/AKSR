@@ -11724,43 +11724,6 @@ margin-top: 50px;
   margin-top: -170px;
 }
 
-.waves {
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 200px;
-  bottom: 0;
-  bottom: -135px;
-  height: 727px;
-  width: 100%;
-  overflow: hidden;
-}
-
-.wave {
-  position: absolute;
-  left: -180px;
-  bottom: 0;
-  background:rgba(0,0,0, .3);
-  width: 2402px;
-  height: 427px;
-  background: url(../assets/img/waves.png) center bottom no-repeat;
-  animation: 5s wave ease-in-out infinite alternate;
-}
-
-.wave.a {
-  background-position: 0 -854px;
-}
-
-.wave.b {
-  background-position: 0 -427px;
-  animation-delay: .6s;
-}
-
-.wave.c {
-  background-position: 0 0;
-  animation-delay: 1.2s;
-}
-
 @keyframes wave {
   0% {
     transform: translate(0 , 0);
@@ -11976,14 +11939,14 @@ margin-top: 50px;
   background: rgba(52, 58, 64, 0.5);
   border-radius: 50%; 
   position: fixed;
-  right: 95px;
+  right: 75px;
   top: 15px;
   text-align: center;
   color: #fff;
   cursor: pointer;
 }
 
-.es-language:hover{
+.es-language, .en-language:hover{
   background: #343a40;
 }
 
@@ -11995,16 +11958,17 @@ margin-top: 50px;
   background: rgba(52, 58, 64, 0.5);
   border-radius: 50%; 
   position: fixed;
-  right: 155px;
+  right: 75px;
   top: 15px;
   text-align: center;
   color: #fff;
   cursor: pointer;
+  display: none;
 }
 
-.en-language:hover{
+/* .en-language:hover{
   background: #343a40;
-}
+} */
 
 .icon-menu{
   color: #fff;
