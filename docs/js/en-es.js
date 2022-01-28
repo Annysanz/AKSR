@@ -1,5 +1,5 @@
-var hide_button = document.getElementById('es');
-var show_button = document.getElementById('en');
+var hide_button = document.getElementById('en');
+var show_button = document.getElementById('es');
 
 hide_button.addEventListener('click', function() {
     show_button.style.display = 'block';
