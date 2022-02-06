@@ -479,60 +479,6 @@ footer.footer {
   text-decoration: none;
 }
 
-.aksr {
-  position: relative;
-  top: 35%;
-  height: 240px;
-}
-
-use {
-  opacity: .9;
-  mix-blend-mode: color-burn;
-  fill: white;
-}
-
-text {
-  transform: translate(3%, 35%);
-  font-size: 3.8rem;
-}
-
-#littlePath {
-  fill: #9ca5f7;
-}
-
-.containerr {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 960px;
-}
-
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-@keyframes move-forever {
-  0% {
-    transform: translate3d(-90px, 0, 0);
-  }
-  100% {
-    transform: translate3d(85px, 0, 0);
-  }
-}
-
-@media (max-width: 768px) {
-  .aksr {
-    z-index: 99;
-    font-family: 'Do Hyeon', sans-serif;
-    margin: 0;
-  }
-}
-
 @keyframes scroll {
   0% {
     transform: translateX(0);
