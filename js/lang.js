@@ -1,12 +1,12 @@
 $.getJSON('./language/lang.json', function(json){
 
-    if(!localStorage.getItem("lang")){
-        localStorage.setItem("lang", "en");
+    if(!localStorage.getItem("lang", "es")){
+        // localStorage.setItem("lang", "en");
     }
-    let def = localStorage.getItem("lang");
-    $('.lang').each(function(index,value){
-        $(this).text(json[def][$(this).attr('key')]);
-    })
+    // let def = localStorage.getItem("lang");
+    // $('.lang').each(function(index,value){
+    //     $(this).text(json[def][$(this).attr('key')]);
+    // })
 
     $('.translate').click(function(){
         let lang = $(this).attr('id');
