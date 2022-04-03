@@ -11781,8 +11781,8 @@ margin-top: 50px;
 }
 
 .slider .slide {
-  height: 100px;
-  width: 250px;
+  height: 120px;
+  /* width: 230px; */
 }
 
 .slider-two {
