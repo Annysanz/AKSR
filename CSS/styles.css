@@ -12060,7 +12060,7 @@ font-size: 3.8rem;
   width: 190px;
   height: 190px;
   cursor: pointer;
-  filter: opacity(.2);
+  filter: opacity(.4);
 }
 
 .logo-liliapp:hover, .logo-drouiz:hover {
@@ -12071,7 +12071,7 @@ font-size: 3.8rem;
   width: 190px;
   height: 100px;
   cursor: pointer;
-  filter: opacity(.2);
+  filter: opacity(.4);
 }
 
 .f-git{
