@@ -11831,7 +11831,7 @@ margin-top: 50px;
   height: 410px;
   display: block !important;
   padding: 15px;
-  /* margin-left: -15px; */
+  margin-left: -15px;
   min-width: 330px;
 }
 
@@ -12081,3 +12081,4 @@ font-size: 3.8rem;
 .projects{
   padding: 25px;
 }
+
