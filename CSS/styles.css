@@ -11946,7 +11946,7 @@ margin-top: 50px;
   cursor: pointer;
 }
 
-.es-language, .en-language:hover{
+.es-language:hover, .en-language:hover{
   background: #343a40;
 }
 
@@ -11964,7 +11964,6 @@ margin-top: 50px;
   color: #fff;
   cursor: pointer;
   display: none;
-
 }
 
 .icon-menu{
