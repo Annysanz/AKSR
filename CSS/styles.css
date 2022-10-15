@@ -11372,10 +11372,10 @@ html {
 }
 
 .sidebar-nav > .sidebar-brand {
-  font-size: 1rem;
+  font-size: .9rem;
   background: rgba(52, 58, 64, 0.1);
   height: 80px;
-  line-height: 50px;
+  line-height: 55px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 15px;
