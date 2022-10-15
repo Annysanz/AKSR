@@ -11355,7 +11355,6 @@ html {
 }
 
 .sidebar-nav li.sidebar-nav-item a {
-  /* display: block; */
   text-decoration: none;
   color: #fff;
   padding: 15px;
@@ -11373,7 +11372,7 @@ html {
 }
 
 .sidebar-nav > .sidebar-brand {
-  font-size: 1.2rem;
+  font-size: 1rem;
   background: rgba(52, 58, 64, 0.1);
   height: 80px;
   line-height: 50px;
