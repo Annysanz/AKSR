@@ -11825,8 +11825,7 @@ margin-top: 50px;
 .cardd {
   float: left;
   display: block !important;
-  /* padding: 15px;
-  min-width: 330px;  */
+  padding: 10px;
 }
 
 .cardd .menu-content {
@@ -12049,19 +12048,26 @@ font-size: 3.3rem;
 }
 
 .logo-liliapp {
-  width: 190px;
-  height: 190px;
+  width: 200px;
+  height: 140px;
   cursor: pointer;
   filter: opacity(.4);
 }
 
-.logo-liliapp:hover, .logo-drouiz:hover {
+.logo-liliapp:hover, .logo-drouiz:hover, .logo-letMeCharge:hover {
   filter:contrast(1);
 } 
 
 .logo-drouiz{
-  width: 190px;
+  width: 200px;
   height: 100px;
+  cursor: pointer;
+  filter: opacity(.4);
+}
+
+.logo-letMeCharge{
+  width: 200px;
+  height: 130px;
   cursor: pointer;
   filter: opacity(.4);
 }
